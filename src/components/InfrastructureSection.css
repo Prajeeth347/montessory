@@ -1,0 +1,326 @@
+.join-our-montessori,
+.school-is-a {
+  position: relative;
+  font-weight: 500;
+}
+.school-is-a {
+  margin: 0;
+  align-self: stretch;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-black);
+}
+.content1,
+.join-our-montessori-prime-scho-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.join-our-montessori-prime-scho-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lgi);
+}
+.content1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+  color: var(--color-hotpink);
+}
+.the-quest-for {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.the-quest-for-a-good-tomorrow-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) var(--padding-lg) var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-base);
+}
+.checkpoint-icon {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+  min-height: 1.875rem;
+  flex-shrink: 0;
+}
+.world-class-modern {
+  position: relative;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.checkpoint-parent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.checkpoint-group,
+.checkpoint-parent,
+.integrated-cbse-curriculum-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.integrated-cbse-curriculum-wrapper {
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+}
+.checkpoint-group {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.checkpoint-icon2 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+  min-height: 1.875rem;
+}
+.digital-classrooms-with-smart-wrapper {
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.checkpoint-parent1,
+.digital-classrooms-with-smart-wrapper,
+.national-international-assoc-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.checkpoint-parent1 {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.national-international-assoc-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 21.375rem;
+}
+.checkpoint-parent2 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.checklist,
+.checkpoint-parent2,
+.content2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.checklist {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lg-6);
+}
+.content2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.aplpication-button-inner {
+  height: 100%;
+  width: calc(100% - 16px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 1rem;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-hotpink);
+  cursor: pointer;
+}
+.ellipse-icon4 {
+  width: 2.363rem;
+  height: 1.25rem;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.application4 {
+  position: relative;
+  z-index: 1;
+}
+.aplpication-button3,
+.container1,
+.container2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aplpication-button3 {
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xl);
+  position: relative;
+  gap: var(--gap-base-1);
+  cursor: pointer;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+}
+.container1,
+.container2 {
+  flex-direction: column;
+  max-width: 100%;
+}
+.container2 {
+  width: 36.188rem;
+  gap: var(--gap-10xl);
+  font-size: var(--font-size-lgi);
+}
+.container1 {
+  flex: 1;
+  gap: var(--gap-5xl);
+  min-width: 24.938rem;
+}
+.background {
+  height: 41.25rem;
+  width: 35rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -3rem;
+  left: -3.562rem;
+  background-color: var(--color-hotpink);
+}
+.image-26-icon {
+  height: 38.25rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.content-child {
+  height: 5.25rem;
+  width: 24.413rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0;
+  left: -3.562rem;
+  border-radius: var(--br-xs);
+  z-index: 2;
+}
+.decades-of-experience {
+  margin: 0 !important;
+  position: absolute;
+  bottom: 1.563rem;
+  left: -2.562rem;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 3;
+}
+.content3,
+.image-container3,
+.infrastructure-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.content3 {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.image-container3,
+.infrastructure-section {
+  box-sizing: border-box;
+}
+.image-container3 {
+  width: 35.125rem;
+  flex-direction: column;
+  padding: var(--padding-17xl) 0 0;
+  min-width: 35.125rem;
+  font-size: var(--font-size-10xl);
+  color: var(--color-white);
+}
+.infrastructure-section {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-100xl) var(--padding-10xl) var(--padding-11xl)
+    var(--padding-65xl);
+  gap: var(--gap-132xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .image-container3 {
+    flex: 1;
+  }
+  .infrastructure-section {
+    flex-wrap: wrap;
+    padding-top: var(--padding-58xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .school-is-a {
+    font-size: var(--font-size-10xl);
+  }
+  .checkpoint-parent1 {
+    flex-wrap: wrap;
+  }
+  .national-international-assoc-wrapper {
+    min-width: 100%;
+  }
+  .checkpoint-parent2 {
+    flex-wrap: wrap;
+  }
+  .container1,
+  .image-container3 {
+    min-width: 100%;
+  }
+  .infrastructure-section {
+    gap: var(--gap-56xl);
+    padding-left: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .school-is-a {
+    font-size: var(--font-size-3xl);
+  }
+  .checkpoint-parent {
+    flex-wrap: wrap;
+  }
+  .decades-of-experience {
+    font-size: var(--font-size-4xl);
+  }
+  .infrastructure-section {
+    gap: var(--gap-19xl);
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}

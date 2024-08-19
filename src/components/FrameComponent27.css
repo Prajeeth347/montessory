@@ -1,0 +1,358 @@
+.highlight-shapes {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-royalblue);
+}
+.main-entrance {
+  width: 15.313rem;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-4xl);
+  background-color: transparent;
+  height: 1.438rem;
+  position: relative;
+  line-height: 1.438rem;
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.highlight-shapes-parent {
+  width: 69.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-29xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+.rectangle-div {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-200);
+}
+.map-view {
+  margin: 0;
+  width: 17.5rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 2.313rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangle-parent {
+  width: 69.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-91xl) var(--padding-xl) var(--padding-92xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.admin-office {
+  width: 15.313rem;
+  position: relative;
+  line-height: 1.438rem;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.image-35-icon19 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36.25rem;
+  height: 11.625rem;
+  object-fit: cover;
+}
+.montessori-prime-school19 {
+  position: absolute;
+  top: 11.625rem;
+  left: 1.438rem;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  display: inline-block;
+  width: 25.938rem;
+}
+.image-35-parent17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36.25rem;
+  height: 18rem;
+}
+.about-us19,
+.blogs19,
+.events19,
+.gallery19,
+.privacy-policy19,
+.virtual-tour21 {
+  position: absolute;
+  top: 6.75rem;
+  left: 41.188rem;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  cursor: pointer;
+}
+.blogs19,
+.events19,
+.gallery19,
+.privacy-policy19,
+.virtual-tour21 {
+  top: 8.938rem;
+}
+.blogs19,
+.events19,
+.privacy-policy19,
+.virtual-tour21 {
+  top: 11.125rem;
+}
+.blogs19,
+.privacy-policy19,
+.virtual-tour21 {
+  top: 13.313rem;
+}
+.privacy-policy19,
+.virtual-tour21 {
+  top: 15.5rem;
+}
+.privacy-policy19 {
+  top: 17.688rem;
+}
+.mon-800-am19 {
+  width: 13.75rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.813rem;
+  display: inline-block;
+  white-space: nowrap;
+}
+.mon-800-am-500-pm-parent4 {
+  position: absolute;
+  top: 6.75rem;
+  left: 52.688rem;
+  width: 10.188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.imgicons8-319 {
+  position: absolute;
+  top: 0.188rem;
+  right: 16rem;
+  width: 1.563rem;
+  height: 1.563rem;
+  object-fit: cover;
+}
+.frr5f3-bavupet-x19 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  display: inline-block;
+  width: 15.688rem;
+}
+.imgicons8-3-parent {
+  position: absolute;
+  top: 5.75rem;
+  right: 0;
+  width: 17.563rem;
+  height: 3.188rem;
+}
+.imgicons8-519 {
+  position: absolute;
+  top: 0;
+  right: 14.75rem;
+  width: 1.563rem;
+  height: 1.563rem;
+  object-fit: cover;
+}
+.infomontessorijnprimecom19 {
+  position: absolute;
+  top: 0.25rem;
+  right: -0.187rem;
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  color: inherit;
+  white-space: nowrap;
+}
+.imgicons8-5-parent17 {
+  position: absolute;
+  top: 13.438rem;
+  right: 1.25rem;
+  width: 16.313rem;
+  height: 1.563rem;
+}
+.explore20 {
+  left: 41.313rem;
+}
+.explore20,
+.get-in-touch21,
+.opening-hours19 {
+  position: absolute;
+  top: 3.25rem;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+}
+.opening-hours19 {
+  left: 52.375rem;
+}
+.get-in-touch21 {
+  right: 6.938rem;
+}
+.a11,
+.imgicons8-619 {
+  position: absolute;
+  top: 0;
+}
+.imgicons8-619 {
+  right: 9.25rem;
+  width: 1.563rem;
+  height: 1.563rem;
+  object-fit: cover;
+}
+.a11 {
+  right: 0;
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  color: inherit;
+  white-space: nowrap;
+}
+.imgicons8-6-parent17 {
+  position: absolute;
+  top: 16.813rem;
+  right: 6.75rem;
+  width: 10.813rem;
+  height: 1.563rem;
+}
+.imgicons8-419 {
+  position: absolute;
+  top: 0;
+  right: 9.375rem;
+  width: 1.563rem;
+  height: 1.563rem;
+  object-fit: cover;
+}
+.a12 {
+  position: absolute;
+  top: 0.125rem;
+  right: 0;
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  color: inherit;
+  white-space: nowrap;
+}
+.imgicons8-4-parent17 {
+  position: absolute;
+  top: 10.625rem;
+  right: 6.625rem;
+  width: 10.938rem;
+  height: 1.563rem;
+}
+.frame-parent73 {
+  position: absolute;
+  top: 5.563rem;
+  left: 1.625rem;
+  width: 86.75rem;
+  height: 18.75rem;
+}
+.footer19,
+.frame-parent72 {
+  overflow: hidden;
+  max-width: 100%;
+}
+.footer19 {
+  width: 90rem;
+  height: 34.375rem;
+  position: relative;
+  background-color: var(--color-gray);
+  flex-shrink: 0;
+  display: none;
+  font-size: var(--font-size-base);
+}
+.frame-parent72 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-75xl) var(--padding-xl) var(--padding-598xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .frame-parent72 {
+    padding-top: var(--padding-42xl);
+    padding-bottom: var(--padding-382xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .map-view {
+    font-size: var(--font-size-10xl);
+    line-height: 1.875rem;
+  }
+  .frame-parent72 {
+    padding-top: var(--padding-21xl);
+    padding-bottom: var(--padding-242xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-entrance {
+    font-size: var(--font-size-lg);
+    line-height: 1.125rem;
+  }
+  .highlight-shapes-parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .map-view {
+    font-size: var(--font-size-3xl);
+    line-height: 1.375rem;
+  }
+  .admin-office {
+    font-size: var(--font-size-lg);
+    line-height: 1.125rem;
+  }
+  .explore20,
+  .get-in-touch21,
+  .opening-hours19 {
+    font-size: var(--font-size-lgi);
+    line-height: 0.875rem;
+  }
+}

@@ -1,0 +1,44 @@
+.frame-41variant3 {
+  margin-right: -0.063rem;
+  align-self: stretch;
+  background-color: var(--color-seashell);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-48xl) var(--padding-9xl) var(--padding-23xl);
+  box-sizing: border-box;
+  gap: var(--gap-49xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-hotpink);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .frame-41variant3 {
+    padding-top: var(--padding-25xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .frame-41variant3 {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frame-41variant3 {
+    gap: var(--gap-15xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-41variant3 {
+    gap: var(--gap-mid);
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

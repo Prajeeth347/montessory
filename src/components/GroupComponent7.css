@@ -1,0 +1,59 @@
+.component-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-200);
+}
+.google-map-location {
+  margin: 0;
+}
+.google-map-location-container {
+  margin: 0;
+  width: 41.688rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangle-parent9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-308xl) var(--padding-xl) var(--padding-307xl-9);
+  box-sizing: border-box;
+  position: relative;
+  min-height: 46.813rem;
+  max-width: 100%;
+  z-index: 1;
+  margin-top: -3rem;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .google-map-location-container {
+    font-size: var(--font-size-19xl);
+  }
+  .rectangle-parent9 {
+    padding-top: var(--padding-308xl);
+    padding-bottom: var(--padding-193xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .google-map-location-container {
+    font-size: var(--font-size-10xl);
+  }
+}

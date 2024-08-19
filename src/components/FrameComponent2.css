@@ -1,0 +1,70 @@
+@keyframes marquee-text {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.watch-live-on {
+  text-decoration: underline;
+}
+.watch-live-on-youtube {
+  color: inherit;
+}
+.happy-independence-day-container {
+  height: 1.25rem;
+  width: 150.313rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.25rem;
+  font-weight: 800;
+  display: inline-block;
+  opacity: 1;
+  white-space: nowrap;
+}
+.happy-independence-day-container.animate {
+  animation: 48s linear -24s infinite normal forwards marquee-text;
+}
+.cards-frame-parent,
+.frame-parent103,
+.happy-independence-day-aff-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.happy-independence-day-aff-wrapper {
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.cards-frame-parent,
+.frame-parent103 {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+}
+.frame-parent103 {
+  padding: 0 0 var(--padding-45xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1425px) {
+  .frame-parent103 {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .frame-parent103 {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}

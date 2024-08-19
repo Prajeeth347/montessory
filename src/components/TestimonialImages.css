@@ -1,0 +1,38 @@
+.empty-image-icon {
+  height: 3.75rem;
+  width: 3.75rem;
+  position: relative;
+  border-radius: var(--br-33xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.testimonial-pic {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ramu-chanda {
+  position: relative;
+  display: inline-block;
+  min-width: 6.813rem;
+}
+.ramu-chanda-wrapper,
+.testimonial-images {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ramu-chanda-wrapper {
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+}
+.testimonial-images {
+  flex-direction: row;
+  gap: var(--gap-4xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-hotpink);
+  font-family: var(--font-inter);
+}

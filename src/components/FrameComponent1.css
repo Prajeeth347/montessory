@@ -1,0 +1,18 @@
+.image-31-icon1 {
+  position: absolute;
+  top: 8.313rem;
+  left: 47.375rem;
+  width: 35.375rem;
+  height: 45.125rem;
+  object-fit: cover;
+  z-index: 1;
+}
+.instance-parent18 {
+  align-self: stretch;
+  height: 57.625rem;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-hotpink);
+  font-family: var(--font-inter);
+}

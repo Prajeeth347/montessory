@@ -1,0 +1,103 @@
+.event-content-child {
+  height: 16.188rem;
+  width: 25.369rem;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 129.5px);
+  left: -0.712rem;
+  border-radius: var(--br-base);
+  object-fit: contain;
+}
+.event-content,
+.image-icon9 {
+  position: relative;
+  max-width: 100%;
+}
+.image-icon9 {
+  height: 13.75rem;
+  flex: 1;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.event-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.imgicons8-22 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+  object-fit: cover;
+}
+.aug-12-20241 {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  display: inline-block;
+  min-width: 6.5rem;
+}
+.event-month,
+.imgicons8-2-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.event-month {
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+}
+.imgicons8-2-container {
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.investiture-ceremony {
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  font-weight: 700;
+  color: inherit;
+}
+.event-date-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.event-content-parent,
+.event-date-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+}
+.event-content-parent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-25xl) var(--padding-xs) var(--padding-40xl)
+    var(--padding-smi);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-26xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .event-content-parent {
+    gap: var(--gap-3xl);
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}

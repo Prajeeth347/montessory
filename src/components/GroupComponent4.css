@@ -1,0 +1,76 @@
+.our-mission,
+.our-mission1 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.our-mission1 {
+  padding-left: var(--padding-45xl);
+}
+.our-mission {
+  width: 22.125rem;
+  position: relative;
+  font-weight: 700;
+  display: inline-block;
+  max-width: 100%;
+}
+.montessori-faculty-have {
+  margin: 0;
+}
+.montessori-prime-school-container1 {
+  align-self: stretch;
+  height: 9rem;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+}
+.mission-paragraph,
+.our-mission-parent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mission-paragraph {
+  width: 55.688rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  min-width: 55.688rem;
+  text-align: left;
+  font-size: var(--font-size-mini);
+}
+.our-mission-parent {
+  width: 86.938rem;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .mission-paragraph {
+    flex: 1;
+  }
+  .our-mission-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .mission-paragraph {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .our-mission {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .our-mission {
+    font-size: var(--font-size-10xl);
+  }
+}

@@ -1,0 +1,353 @@
+.button-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-hotpink);
+  cursor: pointer;
+}
+.ellipse-icon3 {
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipse-wrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.application3 {
+  position: relative;
+  display: inline-block;
+  min-width: 6.375rem;
+  z-index: 1;
+}
+.aplpication-button2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-10xs) var(--padding-5xs)
+    var(--padding-2xs);
+  position: relative;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.image-19-icon {
+  height: 55.25rem;
+  width: 90rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -13.687rem;
+  left: -39.625rem;
+  object-fit: cover;
+}
+.image-23-icon {
+  height: 29.375rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-pair2 {
+  width: 30.813rem;
+  margin: 0 !important;
+  position: absolute;
+  top: 12.813rem;
+  left: 40.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.image-20-icon,
+.placeholder-icon {
+  position: relative;
+  object-fit: cover;
+}
+.image-20-icon {
+  align-self: stretch;
+  height: 5.563rem;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.placeholder-icon {
+  height: 3.75rem;
+  width: 3.75rem;
+}
+.extracurriculars-item {
+  width: 11.125rem;
+  height: 9rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.sports-training {
+  position: relative;
+  text-decoration: underline;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 8rem;
+}
+.training-names,
+.training-types {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.training-names {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-41xl) 0 var(--padding-42xl);
+}
+.training-types {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.extra-ciricullars1,
+.extracurriculars-details,
+.image-20-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.extracurriculars-details {
+  flex-direction: row;
+  padding: 0 var(--padding-4xl);
+}
+.extra-ciricullars1,
+.image-20-wrapper {
+  flex-direction: column;
+}
+.extra-ciricullars1 {
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: 0 0 var(--padding-10xl);
+  gap: var(--gap-mini);
+  z-index: 2;
+}
+.image-20-wrapper {
+  flex: 1;
+}
+.language-training {
+  position: relative;
+}
+.language-training-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-28xl);
+}
+.keeping-the-present {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+  text-align: center;
+}
+.extra-ciricullars-parent,
+.extra-ciricullars2,
+.music-dance-art-training {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.extra-ciricullars2 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: 0 0 var(--padding-89xl);
+  gap: var(--gap-mini);
+  z-index: 2;
+}
+.extra-ciricullars-parent,
+.music-dance-art-training {
+  flex: 1;
+  min-width: 12rem;
+}
+.music-dance-art-training {
+  padding: 0 0 var(--padding-222xl);
+  box-sizing: border-box;
+  min-height: 45.25rem;
+}
+.extracurriculars-description {
+  margin-top: -33.75rem;
+  width: 38.25rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  max-width: calc(100% - 164px);
+  color: var(--color-black);
+}
+.extracurriculars-content {
+  margin-left: -12.188rem;
+  height: 56.5rem;
+  width: 91.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-514xl) var(--padding-116xl) var(--padding-315xl)
+    var(--padding-178xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 116%;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+}
+.guide-the-path {
+  margin: 0;
+  width: 25.75rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.an-ultra-modern {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+}
+.guide-the-path-to-your-profess-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+  z-index: 3;
+}
+.extra-curicullar,
+.school-infrastructure {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.school-infrastructure {
+  width: 32.438rem;
+  flex-direction: column;
+  padding: var(--padding-286xl) 0 0;
+  max-width: calc(100% - 195px);
+  margin-left: -79.063rem;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.extra-curicullar {
+  align-self: stretch;
+  height: 58.625rem;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-25xl) 0 var(--padding-356xl) var(--padding-156xl);
+  max-width: 100%;
+  margin-top: -2.563rem;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1425px) {
+  .extracurriculars-content {
+    padding-top: var(--padding-25xl);
+    padding-bottom: var(--padding-198xl);
+    box-sizing: border-box;
+  }
+  .school-infrastructure {
+    max-width: 100%;
+  }
+  .extra-curicullar {
+    padding-bottom: var(--padding-225xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .extracurriculars-content {
+    padding-bottom: var(--padding-122xl);
+    box-sizing: border-box;
+  }
+  .school-infrastructure {
+    max-width: 100%;
+  }
+  .extra-curicullar {
+    padding-left: var(--padding-68xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .extra-ciricullars2 {
+    padding-bottom: var(--padding-51xl);
+    box-sizing: border-box;
+  }
+  .music-dance-art-training {
+    padding-bottom: var(--padding-138xl);
+    box-sizing: border-box;
+  }
+  .extracurriculars-content {
+    height: auto;
+    padding-left: var(--padding-79xl);
+    padding-right: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+  .guide-the-path {
+    font-size: var(--font-size-10xl);
+  }
+  .school-infrastructure {
+    max-width: 100%;
+  }
+  .extra-curicullar {
+    height: auto;
+    padding-bottom: var(--padding-140xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .extracurriculars-content {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-73xl);
+    box-sizing: border-box;
+  }
+  .guide-the-path {
+    font-size: var(--font-size-3xl);
+  }
+  .an-ultra-modern {
+    font-size: var(--font-size-base);
+  }
+  .school-infrastructure {
+    max-width: 100%;
+  }
+  .extra-curicullar {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

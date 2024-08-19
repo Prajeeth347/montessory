@@ -1,0 +1,215 @@
+.image-53-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image-53-wrapper {
+  height: 33rem;
+  width: 34rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  min-width: 34rem;
+  max-width: 100%;
+}
+.founder-and-chairman {
+  position: relative;
+}
+.mr-jose-nedumthundam {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-black);
+}
+.founder-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+}
+.i-am-dedicated {
+  margin: 0;
+}
+.i-am-dedicated-container {
+  position: relative;
+  font-weight: 300;
+  color: var(--color-black);
+  text-align: left;
+}
+.founder-name-parent {
+  width: 43.188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-18xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-hotpink);
+}
+.quote-background-child {
+  border: 0;
+  background-color: var(--color-gainsboro-400);
+  height: 8rem;
+  width: 45.063rem;
+  outline: 0;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 64px);
+  left: calc(50% - 360.5px);
+  border-radius: var(--br-3xs);
+}
+.quality-is-never {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.quote-background,
+.quote-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.quote-background {
+  flex: 1;
+  position: relative;
+}
+.quote-container {
+  width: 45.063rem;
+  padding: 0 var(--padding-24xl);
+  box-sizing: border-box;
+}
+.our-montessori-group {
+  align-self: stretch;
+  position: relative;
+  font-weight: 300;
+}
+.founder-image-container,
+.frame-parent78 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent78 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-39xl);
+  min-width: 30.813rem;
+}
+.founder-image-container {
+  width: 83.563rem;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-15xl);
+}
+.founder-message-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.twenty-eight-years-container {
+  width: 85.125rem;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 100%;
+}
+.founder-message-container-parent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) var(--padding-lg) var(--padding-76xl);
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1125px) {
+  .image-53-icon {
+    align-self: stretch;
+    width: auto;
+  }
+  .image-53-wrapper {
+    flex: 1;
+  }
+  .founder-image-container {
+    flex-wrap: wrap;
+  }
+  .founder-message-container-parent {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .image-53-wrapper {
+    min-width: 100%;
+  }
+  .mr-jose-nedumthundam {
+    font-size: var(--font-size-10xl);
+  }
+  .founder-name-parent {
+    gap: var(--gap-lg);
+  }
+  .quote-container {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .frame-parent78 {
+    gap: var(--gap-10xl);
+    min-width: 100%;
+  }
+  .founder-image-container {
+    gap: var(--gap-mid);
+  }
+  .founder-message-container-parent {
+    gap: var(--gap-11xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mr-jose-nedumthundam {
+    font-size: var(--font-size-3xl);
+  }
+  .our-montessori-group,
+  .quality-is-never,
+  .twenty-eight-years-container {
+    font-size: var(--font-size-base);
+  }
+}

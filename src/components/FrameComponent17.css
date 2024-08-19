@@ -1,0 +1,99 @@
+.our-curriculum {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.313rem;
+  font-weight: 800;
+  display: inline-block;
+  max-width: 100%;
+}
+.our-curriculum-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.we-cover-the {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  letter-spacing: 0.02em;
+  line-height: 2.375rem;
+  font-weight: 800;
+  font-family: inherit;
+  color: var(--color-black);
+}
+.frame-parent100 {
+  width: 34rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.a-well-drafted {
+  margin: 0;
+}
+.a-well-drafted-container {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 100%;
+}
+.a-well-drafted-curriculum-is-h-wrapper,
+.frame-parent99 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.a-well-drafted-curriculum-is-h-wrapper {
+  width: 34rem;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-3xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+}
+.frame-parent99 {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  right: 0;
+  bottom: -4rem;
+  left: 0;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-67xl) var(--padding-xl) var(--padding-619xl);
+  gap: var(--gap-12xl);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-hotpink);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 825px) {
+  .we-cover-the {
+    font-size: var(--font-size-10xl);
+    line-height: 1.875rem;
+  }
+  .frame-parent99 {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 450px) {
+  .we-cover-the {
+    font-size: var(--font-size-3xl);
+    line-height: 1.438rem;
+  }
+}

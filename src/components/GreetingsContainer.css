@@ -1,0 +1,84 @@
+.greetings-from-the {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 100%;
+}
+.greetings-titles {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.highlight-shapes1 {
+  height: 8rem;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-400);
+  max-width: 100%;
+}
+.quality-is-never1 {
+  width: 36.313rem;
+  position: relative;
+  font-weight: 300;
+  display: none;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.educating-the-mind {
+  width: 39.688rem;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 24px);
+  left: calc(50% - 317.5px);
+  font-weight: 300;
+  display: inline-block;
+  z-index: 1;
+}
+.highlight-shapes-group {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+  font-size: var(--font-size-xl);
+}
+.greetings,
+.greetings-container,
+.highlight-shapes-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.greetings {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.greetings-container {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1125px) {
+  .greetings {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .educating-the-mind,
+  .quality-is-never1 {
+    font-size: var(--font-size-base);
+  }
+}

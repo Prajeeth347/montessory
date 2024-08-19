@@ -1,0 +1,79 @@
+.background-icon,
+.image-22-icon {
+  height: 3.75rem;
+  width: 3.75rem;
+  position: relative;
+  object-fit: cover;
+}
+.image-22-icon {
+  width: 6rem;
+  height: 6.188rem;
+}
+.image-container1,
+.image1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.image1 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.image-container1 {
+  height: 9rem;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-2xl);
+}
+.music-dance-art {
+  position: relative;
+  text-decoration: underline;
+  font-weight: 700;
+  color: inherit;
+}
+.training-name {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 var(--padding-mini);
+}
+.sports-plays-an {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+  text-align: center;
+}
+.training-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.extra-ciricullars,
+.music-dance-art-training-descr {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xl);
+}
+.extra-ciricullars {
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xl);
+  gap: var(--gap-mini);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

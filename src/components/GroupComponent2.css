@@ -1,0 +1,107 @@
+.mrs-t-kalyani,
+.vice-principal-message {
+  position: relative;
+}
+.mrs-t-kalyani {
+  margin: 0;
+  height: 2.75rem;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-black);
+  display: inline-block;
+}
+.frame-wrapper47,
+.vice-principal-message-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vice-principal-message-parent {
+  flex-direction: column;
+  gap: var(--gap-3xl);
+}
+.frame-wrapper47 {
+  flex-direction: row;
+  padding: 0 var(--padding-lgi);
+  box-sizing: border-box;
+}
+.we-as-a {
+  margin: 0;
+}
+.we-as-a-container {
+  width: 43.188rem;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 100%;
+}
+.frame-parent82 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+  min-width: 29.438rem;
+  max-width: 100%;
+}
+.image-54-icon1 {
+  width: 38.438rem;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.frame-parent80,
+.frame-parent81 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent81 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-smi);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame-parent80 {
+  width: 84.563rem;
+  flex-direction: column;
+  gap: var(--gap-18xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-hotpink);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1125px) {
+  .image-54-icon1 {
+    flex: 1;
+  }
+  .frame-parent81 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mrs-t-kalyani {
+    font-size: var(--font-size-10xl);
+  }
+  .frame-parent82 {
+    gap: var(--gap-2xl);
+    min-width: 100%;
+  }
+  .frame-parent80 {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .mrs-t-kalyani {
+    font-size: var(--font-size-3xl);
+  }
+  .we-as-a-container {
+    font-size: var(--font-size-base);
+  }
+}

@@ -1,0 +1,14 @@
+.frame-parent91 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .frame-parent91 {
+    gap: var(--gap-base);
+  }
+}

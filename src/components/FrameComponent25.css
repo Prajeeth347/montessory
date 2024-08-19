@@ -1,0 +1,215 @@
+.contact-details9 {
+  width: 7.625rem;
+  position: relative;
+  display: inline-block;
+  min-width: 7.625rem;
+}
+.contact-details-wrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  color: var(--color-hotpink);
+}
+.get-in-touch23 {
+  margin: 0;
+  width: 13.375rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.get-in-touch-wrapper12 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-17xl);
+}
+.montessori-prime-school24 {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.montessori-prime-school-aims-p-wrapper14 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  text-align: left;
+}
+.details-content-inner,
+.frame-parent96,
+.montessori-prime-school-aims-p-wrapper14 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent96 {
+  flex: 1;
+  flex-direction: column;
+}
+.details-content-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-7xl);
+  box-sizing: border-box;
+}
+.our-address {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.frr5f3-bavupet-x20 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.address-contact-labels {
+  position: absolute;
+  top: 0.438rem;
+  left: 6.625rem;
+  width: 23.813rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image-icon4,
+.image-icon5 {
+  position: absolute;
+  top: 1rem;
+  left: 1.188rem;
+  width: 3.688rem;
+  height: 4.188rem;
+  object-fit: cover;
+}
+.image-icon5 {
+  top: 0.813rem;
+  left: 0.75rem;
+  z-index: 1;
+}
+.address-contact-labels-parent {
+  align-self: stretch;
+  height: 6.25rem;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contact1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 5.938rem;
+}
+.span {
+  text-decoration: underline;
+}
+.a13 {
+  color: inherit;
+}
+.p2 {
+  margin: 0;
+}
+.details-content,
+.instance-parent17 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.instance-parent17 {
+  width: 36rem;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+}
+.details-content {
+  align-self: stretch;
+  gap: var(--gap-16xl);
+}
+.details-wrapper,
+.details-wrapper-parent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.details-wrapper {
+  width: 37.813rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs);
+  min-width: 37.813rem;
+}
+.details-wrapper-parent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-66xl) var(--padding-47xl) var(--padding-77xl)
+    var(--padding-12xl);
+  gap: var(--gap-65xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .details-wrapper {
+    flex: 1;
+  }
+  .details-wrapper-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .get-in-touch23 {
+    font-size: var(--font-size-10xl);
+  }
+  .instance-parent17 {
+    gap: var(--gap-base);
+  }
+  .details-content {
+    gap: var(--gap-mid);
+  }
+  .details-wrapper {
+    min-width: 100%;
+  }
+  .details-wrapper-parent {
+    gap: var(--gap-23xl);
+    padding-top: var(--padding-36xl);
+    padding-right: var(--padding-14xl);
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .get-in-touch23 {
+    font-size: var(--font-size-3xl);
+  }
+  .contact1,
+  .our-address {
+    font-size: var(--font-size-lgi);
+  }
+  .details-wrapper-parent {
+    gap: var(--gap-2xl);
+    padding-top: var(--padding-17xl);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}

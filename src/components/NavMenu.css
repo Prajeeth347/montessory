@@ -1,0 +1,118 @@
+.home {
+  text-decoration: none;
+  width: 5.194rem;
+  position: relative;
+  color: var(--color-hotpink);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.about-us20,
+.mandatory-public-disclosure1 {
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.about-us20 {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  min-width: 5.288rem;
+}
+.mandatory-public-disclosure1 {
+  align-self: stretch;
+}
+.mandatory-public-disclosure-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.gallery20 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 3.969rem;
+  cursor: pointer;
+}
+.menu-about-gallery {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-36xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xl-1);
+  max-width: 100%;
+}
+.events21 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 3.875rem;
+  cursor: pointer;
+}
+.menu-home {
+  width: 5.856rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.blogs20 {
+  text-decoration: none;
+  width: 3.025rem;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  cursor: pointer;
+}
+.menu-home1 {
+  width: 5.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.contact-us2 {
+  text-decoration: none;
+  width: 6.519rem;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.nav-menu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1425px) {
+  .nav-menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 825px) {
+  .menu-about-gallery {
+    display: none;
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}

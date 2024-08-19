@@ -1,0 +1,72 @@
+.image-38-icon3 {
+  height: 20.775rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image-38-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aug-14-20245,
+.th-august-20245 {
+  position: relative;
+  display: inline-block;
+}
+.aug-14-20245 {
+  min-width: 6.5rem;
+}
+.th-august-20245 {
+  width: 13.25rem;
+  text-decoration: underline;
+  font-weight: 700;
+  color: inherit;
+}
+.frame-parent92,
+.th-august-2024-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  font-size: var(--font-size-5xl);
+}
+.frame-parent92 {
+  flex: 1;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-9xs) var(--padding-4xs) var(--padding-25xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xs-8);
+  min-width: 25rem;
+  max-width: 100%;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .frame-parent92 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .th-august-20245 {
+    font-size: var(--font-size-lgi);
+  }
+  .frame-parent92 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

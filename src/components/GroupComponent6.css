@@ -1,0 +1,66 @@
+.introduction {
+  margin: 0;
+  width: 32.169rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.primo-enterprises-is {
+  margin: 0;
+}
+.primo-enterprises-is-container {
+  width: 49.306rem;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.intro-paragraph,
+.introduction-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.intro-paragraph {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.introduction-parent {
+  position: absolute;
+  height: 100%;
+  width: 59.59%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 40.41%;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-104xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .introduction {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .introduction {
+    font-size: var(--font-size-10xl);
+  }
+  .primo-enterprises-is-container {
+    font-size: var(--font-size-base);
+  }
+}

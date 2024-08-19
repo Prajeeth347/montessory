@@ -1,0 +1,44 @@
+.image-39-icon {
+  height: 38.625rem;
+  width: 61.125rem;
+  position: absolute;
+  margin: 0 !important;
+  right: -41.25rem;
+  bottom: -25rem;
+  object-fit: cover;
+  z-index: 1;
+}
+.event-name {
+  flex: 1;
+  position: relative;
+  font-weight: 800;
+  z-index: 1;
+}
+.image-39-parent {
+  width: 19.875rem;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-79xl) var(--padding-39xl) var(--padding-72xl);
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .event-name {
+    font-size: var(--font-size-lgi);
+  }
+  .image-39-parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

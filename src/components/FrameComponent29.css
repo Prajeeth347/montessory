@@ -1,0 +1,91 @@
+.image-73-icon,
+.image-74-icon {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.image-73-icon {
+  height: 28.125rem;
+  flex: 1;
+  overflow: hidden;
+  min-width: 32.5rem;
+}
+.image-74-icon {
+  width: 21.688rem;
+  max-height: 100%;
+}
+.event-images {
+  width: 77.125rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-68xl);
+  max-width: 100%;
+}
+.th-august-20244 {
+  position: relative;
+}
+.ttpswwwyoutubecommontes3 {
+  text-decoration: underline;
+}
+.ttpswwwyoutubecommontes2 {
+  color: inherit;
+}
+.join-us-in-celebrating-indias1 {
+  margin: 0;
+}
+.join-us-in-container1 {
+  margin: 0;
+  width: 46.313rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  max-height: 63rem;
+  word-break: break-word;
+}
+.event-images-parent,
+.th-august-2024-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  max-width: 100%;
+}
+.event-images-parent {
+  position: absolute;
+  top: 0;
+  left: 2.125rem;
+  background-color: var(--color-white);
+  width: 85.75rem;
+  overflow: hidden;
+  padding: var(--padding-13xl) var(--padding-17xl) var(--padding-1398xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1125px) {
+  .image-74-icon {
+    flex: 1;
+  }
+  .event-images {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .image-73-icon {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .join-us-in-container1,
+  .th-august-20244 {
+    font-size: var(--font-size-lgi);
+  }
+}

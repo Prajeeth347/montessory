@@ -1,0 +1,65 @@
+.contact-us,
+.home-contact {
+  width: 10.375rem;
+  position: relative;
+  display: inline-block;
+}
+.contact-us {
+  margin: 0;
+  width: 25.375rem;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.contact-us-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+}
+.image-36-icon {
+  width: 2.588rem;
+  height: 2.588rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 3.056rem;
+  left: 9.044rem;
+  object-fit: contain;
+}
+.home-contact-parent {
+  align-self: stretch;
+  background-color: var(--color-seashell);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-15xl) var(--padding-22xl) var(--padding-76xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-24xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .contact-us {
+    font-size: var(--font-size-19xl);
+  }
+  .home-contact-parent {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact-us {
+    font-size: var(--font-size-10xl);
+  }
+}

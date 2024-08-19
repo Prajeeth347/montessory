@@ -1,0 +1,112 @@
+.our-gallery {
+  position: relative;
+  display: inline-block;
+  min-width: 6.125rem;
+}
+.heading-container1 {
+  width: 28.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.our-best-gallery {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.students-learns-in {
+  position: relative;
+}
+.students-learns-in-a-unique-i-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-7xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray);
+}
+.description-container,
+.heading-container-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.description-container {
+  gap: var(--gap-xs);
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.heading-container-parent {
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.content4 {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.button-container,
+.content-parent,
+.content4,
+.image-container4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.image-container4 {
+  width: 170.313rem;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-34xl);
+  box-sizing: border-box;
+  max-width: 190%;
+  flex-shrink: 0;
+}
+.button-container,
+.content-parent {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.content-parent {
+  background-color: var(--color-seashell);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-74xl) 0 var(--padding-46xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-hotpink);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 825px) {
+  .our-best-gallery {
+    font-size: var(--font-size-10xl);
+  }
+  .content-parent {
+    padding-top: var(--padding-41xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .our-best-gallery {
+    font-size: var(--font-size-3xl);
+  }
+  .image-container4 {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}

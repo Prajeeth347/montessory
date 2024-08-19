@@ -1,0 +1,230 @@
+.house-of-warriors {
+  margin: 0;
+  width: 26.688rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.were-the-best {
+  margin: 0;
+}
+.were-the-best-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+}
+.house-of-warriors-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  max-width: 100%;
+}
+.image-56-icon3 {
+  height: 2.688rem;
+  width: 3rem;
+  position: relative;
+  object-fit: cover;
+}
+.we-think-we {
+  position: relative;
+  font-weight: 300;
+}
+.we-think-we-do-we-win-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.frame-wrapper50,
+.image-56-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.image-56-parent1 {
+  flex: 1;
+  justify-content: flex-start;
+}
+.frame-wrapper50 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 var(--padding-7xs);
+}
+.image-58-icon3 {
+  height: 2.563rem;
+  width: 3.063rem;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.perseverance-courage {
+  position: relative;
+  font-weight: 300;
+  flex-shrink: 0;
+}
+.perseverance-courage-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+}
+.frame-parent86,
+.image-58-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent86 {
+  width: 14.625rem;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-6xl);
+  min-width: 14.625rem;
+}
+.image-57-icon3 {
+  height: 2.125rem;
+  width: 2.375rem;
+  position: relative;
+  object-fit: cover;
+}
+.coral-light-red {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 7.188rem;
+}
+.coral-light-red-wrapper {
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+}
+.coral-light-red-wrapper,
+.frame-wrapper51,
+.image-57-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image-57-parent1 {
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.frame-wrapper51 {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.frame-parent84,
+.frame-parent85,
+.houses-inner2 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent85 {
+  width: 29.938rem;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+}
+.frame-parent84,
+.houses-inner2 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent84 {
+  align-self: stretch;
+  gap: var(--gap-83xl);
+}
+.houses-inner2 {
+  width: 34.563rem;
+  padding: 0 0 var(--padding-99xl);
+  box-sizing: border-box;
+  min-width: 34.563rem;
+  min-height: 25.813rem;
+}
+.image-55-icon3 {
+  width: 34.625rem;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.houses3 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-50xl) var(--padding-14xl);
+  box-sizing: border-box;
+  gap: var(--gap-135xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .houses-inner2,
+  .image-55-icon3 {
+    flex: 1;
+  }
+  .houses3 {
+    flex-wrap: wrap;
+    gap: var(--gap-58xl);
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .house-of-warriors {
+    font-size: var(--font-size-10xl);
+  }
+  .frame-parent86,
+  .image-56-parent1 {
+    flex: 1;
+  }
+  .frame-parent85 {
+    flex-wrap: wrap;
+  }
+  .frame-parent84 {
+    gap: var(--gap-32xl);
+  }
+  .houses-inner2 {
+    min-width: 100%;
+  }
+  .houses3 {
+    gap: var(--gap-19xl);
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .house-of-warriors {
+    font-size: var(--font-size-3xl);
+  }
+  .frame-parent84 {
+    gap: var(--gap-6xl);
+  }
+  .houses-inner2 {
+    padding-bottom: var(--padding-58xl);
+    box-sizing: border-box;
+  }
+  .houses3 {
+    gap: var(--gap-lgi);
+  }
+}

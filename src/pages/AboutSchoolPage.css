@@ -1,0 +1,373 @@
+.frame-parent55,
+.instance-parent13 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent55 {
+  align-items: flex-end;
+  gap: var(--gap-13xl);
+}
+.image-35-icon16 {
+  align-self: stretch;
+  height: 11.625rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.montessori-prime-school16 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.footer-left2,
+.montessori-prime-school-aims-p-wrapper11 {
+  width: 28.813rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footer-left2 {
+  width: 36.25rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-xs);
+}
+.explore17 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 5.75rem;
+}
+.explore-wrapper10 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.about-us16,
+.blogs16,
+.events16,
+.gallery16 {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  display: inline-block;
+  min-width: 5.938rem;
+  cursor: pointer;
+}
+.blogs16,
+.events16,
+.gallery16 {
+  min-width: 5.188rem;
+}
+.blogs16,
+.events16 {
+  min-width: 5rem;
+}
+.blogs16 {
+  min-width: 4.438rem;
+}
+.virtual-tour17 {
+  display: inline-block;
+  min-width: 7.375rem;
+}
+.privacy-policy16,
+.virtual-tour17 {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  cursor: pointer;
+}
+.blogs-group {
+  gap: var(--gap-lg);
+}
+.about-us-parent6,
+.blogs-group,
+.frame-parent57 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about-us-parent6 {
+  gap: var(--gap-lg);
+  font-size: var(--font-size-base);
+}
+.frame-parent57 {
+  gap: var(--gap-20xl);
+  min-width: 8.313rem;
+}
+.mon-800-am16,
+.opening-hours16 {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.opening-hours16 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 1.063rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.mon-800-am16 {
+  width: 13.75rem;
+  line-height: 1.813rem;
+  display: inline-block;
+  white-space: nowrap;
+}
+.mon-800-am-500-pm-parent2 {
+  width: 10.188rem;
+  flex-direction: column;
+}
+.frame-wrapper33,
+.mon-800-am-500-pm-parent2,
+.opening-hours-parent12 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper33 {
+  flex-direction: row;
+  padding: 0 var(--padding-mini) 0 var(--padding-8xs);
+  font-size: var(--font-size-base);
+}
+.opening-hours-parent12 {
+  flex-direction: column;
+  gap: var(--gap-20xl);
+  min-width: 11.438rem;
+}
+.frame-parent56,
+.get-in-touch-wrapper9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-5xl);
+}
+.frame-parent56 {
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-27xl);
+  max-width: 100%;
+}
+.get-in-touch-wrapper9 {
+  padding: 0 var(--padding-mid);
+}
+.imgicons8-316 {
+  width: 1.563rem;
+  height: 1.563rem;
+  position: relative;
+  object-fit: cover;
+}
+.imgicons8-3-wrapper9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.frr5f3-bavupet-x16 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+}
+.frame-parent59,
+.frame-wrapper35 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent59 {
+  flex: 1;
+  gap: var(--gap-8xs);
+}
+.frame-wrapper35 {
+  align-self: stretch;
+  padding: 0 0 var(--padding-9xs);
+}
+.imgicons8-416 {
+  height: 1.563rem;
+  width: 1.563rem;
+  position: relative;
+  object-fit: cover;
+}
+.email-website {
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  color: inherit;
+  white-space: nowrap;
+}
+.email-website-wrapper,
+.imgicons8-4-parent14 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email-website-wrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.imgicons8-4-parent14 {
+  flex-direction: row;
+  gap: var(--gap-4xs);
+}
+.imgicons8-516 {
+  height: 1.563rem;
+  width: 1.563rem;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.infomontessorijnprimecom16 {
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+  line-height: 1.063rem;
+  color: inherit;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.imgicons8-5-parent14,
+.infomontessorijnprimecom-wrapper14 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.infomontessorijnprimecom-wrapper14 {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.imgicons8-5-parent14 {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.frame-parent60 {
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  gap: var(--gap-xl);
+}
+.frame-parent58,
+.frame-parent60,
+.frame-wrapper34 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame-parent58 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.frame-wrapper34 {
+  width: 17.563rem;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.footer-left-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-60xl);
+  max-width: 100%;
+}
+.about-school-page,
+.footer16 {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.footer16 {
+  background-color: var(--color-gray);
+  flex-direction: row;
+  padding: var(--padding-70xl) var(--padding-7xl);
+  min-height: 34.375rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.about-school-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-sm) 0 0;
+  gap: 10.125rem;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .footer-left-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frame-parent55 {
+    gap: var(--gap-base);
+  }
+  .footer-left-container {
+    gap: var(--gap-20xl);
+  }
+  .footer16 {
+    padding-top: var(--padding-39xl);
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+  .about-school-page {
+    gap: 5.063rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .explore17 {
+    font-size: var(--font-size-lgi);
+    line-height: 0.875rem;
+  }
+  .frame-parent57 {
+    flex: 1;
+  }
+  .opening-hours16 {
+    font-size: var(--font-size-lgi);
+    line-height: 0.875rem;
+  }
+  .opening-hours-parent12 {
+    flex: 1;
+  }
+  .frame-parent56 {
+    flex-wrap: wrap;
+    gap: var(--gap-4xl);
+  }
+  .footer-left-container {
+    gap: var(--gap-xl);
+  }
+  .about-school-page {
+    gap: 2.5rem;
+  }
+}

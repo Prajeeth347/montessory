@@ -1,0 +1,28 @@
+.circular-arrows-child,
+.test-arrows-icon {
+  position: absolute;
+  height: 64.47%;
+  width: 100%;
+  top: 17.76%;
+  right: 0;
+  bottom: 17.76%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.test-arrows-icon {
+  height: 100%;
+  width: 40%;
+  top: 0;
+  right: 30.31%;
+  bottom: 0;
+  left: 29.69%;
+  z-index: 1;
+}
+.circular-arrows {
+  height: 9.5rem;
+  width: 6.125rem;
+  position: relative;
+  z-index: 1;
+}

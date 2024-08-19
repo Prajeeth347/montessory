@@ -1,0 +1,122 @@
+.image-52-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image-52-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-156xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.our-vision1,
+.our-vision2 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.our-vision2 {
+  padding-left: var(--padding-45xl);
+}
+.our-vision1 {
+  width: 19.938rem;
+  position: relative;
+  font-weight: 700;
+  display: inline-block;
+}
+.our-vision-is {
+  margin: 0;
+}
+.our-vision-is-container1 {
+  width: 55.688rem;
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 300;
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 55.688rem;
+  max-width: 100%;
+}
+.desktop-1,
+.frame-parent93,
+.our-vision-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.our-vision-parent {
+  width: 85.688rem;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-left: -85.688rem;
+}
+.desktop-1,
+.frame-parent93 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.desktop-1 {
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-17xl) var(--padding-mid);
+  box-sizing: border-box;
+  gap: var(--gap-48xl);
+  z-index: 1;
+  margin-top: -3.063rem;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .our-vision-is-container1 {
+    flex: 1;
+  }
+  .our-vision-parent {
+    flex-wrap: wrap;
+  }
+  .desktop-1 {
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .image-52-wrapper {
+    padding-top: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .our-vision-is-container1 {
+    min-width: 100%;
+  }
+  .desktop-1 {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .our-vision1 {
+    font-size: var(--font-size-19xl);
+  }
+  .desktop-1 {
+    gap: var(--gap-14xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .our-vision1 {
+    font-size: var(--font-size-10xl);
+  }
+  .desktop-1 {
+    gap: var(--gap-mid);
+  }
+}

@@ -1,0 +1,13 @@
+.test-frame {
+  margin-left: -5.625rem;
+  margin-bottom: 0.687rem;
+  width: 106.25rem;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 119%;
+  flex-shrink: 0;
+}

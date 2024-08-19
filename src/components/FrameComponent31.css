@@ -1,0 +1,71 @@
+.frame-child {
+  height: 8.625rem;
+  width: 9rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -8rem;
+  left: -6.187rem;
+  border-radius: 50%;
+  background-color: var(--color-hotpink);
+}
+.i-am-b {
+  height: 18.063rem;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.03px;
+  display: inline-block;
+}
+.i-am-b-s-r-prasad-father-o-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  z-index: 1;
+}
+.empty-icon {
+  height: 5.375rem;
+  width: 5.875rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 1.125rem;
+  bottom: -3.75rem;
+  object-fit: contain;
+  z-index: 2;
+}
+.ellipse-parent {
+  flex: 1;
+  flex-direction: row;
+  position: relative;
+}
+.ellipse-parent,
+.frame-parent69,
+.frame-wrapper39 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper39 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-mini);
+}
+.frame-parent69 {
+  width: 24.375rem;
+  margin: 0 !important;
+  position: absolute;
+  top: 31.125rem;
+  left: 32.438rem;
+  background-color: var(--color-seashell);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-60xl) var(--padding-14xl) var(--padding-23xl)
+    var(--padding-18xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
